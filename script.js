@@ -1,6 +1,6 @@
 function updateTextInput(val) {
-    document.getElementById('textInput').value=val; 
-  }
+    document.getElementById("range").value=val; 
+}
 
 function compute()
 {
