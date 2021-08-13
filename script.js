@@ -18,13 +18,6 @@ function compute()
       document.getElementById("amount_right_space").innerHTML = "";
     }
 
-    if (t==0) {
-      document.getElementById("years_right_space").innerHTML = "Please provide the years value!";
-      return;
-    } else {
-      document.getElementById("years_right_space").innerHTML = "";
-    }
-
     // Simple interest formula:
     // A = p * r * t, where
     // A is the final amount, p is the principal value
