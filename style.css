@@ -2,6 +2,7 @@ body {
     background-color:black;
     display: flex;
     height: 30vh;
+    justify-content: center;
 }
 
 #calculator_main {
