@@ -38,7 +38,7 @@ function compute()
     message = "If you deposit <mark>" + p + "</mark>,<br> at an interest rate of <mark>" + r + "%</mark>.<br>" + "You will receive an amount of <mark>" + a.toFixed(2) + "</mark>,<br>in the year <mark>" + new_year + "</mark>";
 
     // writing the compound information message to the respective element
-    document.body.style.height = "40vh";
+    document.body.style.height = "400px";
     document.getElementById('message').style.paddingTop = "10px";
     document.getElementById('message').innerHTML = message;
 }
