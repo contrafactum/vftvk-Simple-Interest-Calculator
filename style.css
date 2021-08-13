@@ -1,20 +1,25 @@
-body {background-color:black;}
-h1{color:green;}
+body {
+    background-color:black;
+    display: flex;
+    height: 30vh;
+}
 
 #calculator_main {
    background-color: white; 
-   width: 60%;
-   margin-left: 5%;
-   margin-top: 2%;
    border-radius: 30px;
    padding-left: 20px;
    padding-right: 20px;
    padding-top: 10px;
    padding-bottom: 10px;
-
+   
+    
    font-family:Arial, Helvetica, sans-serif;
    font-size: 14px;
 
+}
+
+#input {
+    display: block;
 }
 
 
@@ -25,13 +30,33 @@ h1{color:green;}
     size: 20px;
 }
 
+#input_forms {
+    padding-left: 80px;
+}
+
+#input_forms tr>td {
+    padding-bottom: 11px;
+}
+
 #textInput {
     border: none;
+}
+
+#amount_right_space {
+    color: red;
+    size: 8px;
+    font-style: italic;
+}
+
+#years_right_space {
+    color: red;
+    size: 8px;
+    font-style: italic;
 }
 
 footer {
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
-    font-size: 14px;
+    font-size: 15px;
 }
