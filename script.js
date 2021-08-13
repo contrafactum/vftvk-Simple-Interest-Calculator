@@ -11,8 +11,10 @@ function compute()
     t = document.getElementById("years").value;
 
     // input validation
-    if (p==0) {
-      document.getElementById("amount_right_space").innerHTML = "Please provide the principal value!";
+    if (p<=0) {
+      alert("Please enter a positive number as principal value!");
+      document.getElementById("principal").focus();
+      //document.getElementById("amount_right_space").innerHTML = "Please provide the principal value!";
       return;
     } else {
       document.getElementById("amount_right_space").innerHTML = "";
